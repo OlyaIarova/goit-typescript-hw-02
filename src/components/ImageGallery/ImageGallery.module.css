@@ -1,0 +1,17 @@
+.list {
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  border-radius: 6px;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  background-color: rgb(177, 228, 218);
+  box-shadow: 2px 8px 10px #27b8ad, 2px 4px 8px #1f4441;
+}

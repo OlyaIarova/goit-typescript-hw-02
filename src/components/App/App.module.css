@@ -1,0 +1,13 @@
+.appContainer {
+  max-width: 100vw;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  padding: 100px;
+  textalign: 'center';
+  font-size: 30px;
+}

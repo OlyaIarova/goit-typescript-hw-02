@@ -1,0 +1,15 @@
+.btn {
+  width: 200px;
+  height: 45px;
+  border: none;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  background-image: linear-gradient(to right, aqua, #81d8d1);
+  cursor: pointer;
+  margin-bottom: 32px;
+}
+.btn:hover {
+ transform: scale(1.1);
+    box-shadow: 2px 6px 8px #d4f0eb, -2px -2px 6px #27b8ad;
+}
