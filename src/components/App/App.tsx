@@ -46,7 +46,7 @@ export default function App() {
     async function findImg() {//виконує асинхронний запит на сервер для отримання зображень, оновлює стан зображень і обробляє помилки.
       try {
         setIsLoading(true);
-        const data: ImageInterface[] = await fetchImg(query, page);
+        const data = await fetchImg(query, page);
 
         if (data.length === 0) {
           toast.error('No images found. Please try a different search term.');
